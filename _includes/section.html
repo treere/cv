@@ -1,0 +1,53 @@
+{% if values %}
+<section class="section">
+  <h2>
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="{{ values.icon | default: "fas fa-briefcase" }} fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ values.title }}
+  </h2>
+
+  {% if values.intro %}
+  <div class="text-block">
+    {{ values.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+
+  {% for value in values.items %}
+  <div class="item">
+    {% if value.role %}
+    {% include role.html %}
+    {% else %}
+    {% include title.html %}
+    {% endif %}
+  </div><!--//item-->
+  {% endfor %}
+
+  
+  {% if values.toolset %}
+  <div class="skillset">
+    
+    {% for skill in values.toolset %}
+    <div class="item">
+      
+      <h3>{{ skill.name }}</h3>
+      
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div><!--//level-bar-->
+      
+    </div><!--//item-->
+    {% endfor %}
+    
+  </div>
+  {% endif %}
+
+</section><!--//skills-section-->
+
+
+</section><!--//section-->
+{% endif %}
+

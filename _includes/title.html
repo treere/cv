@@ -1,0 +1,12 @@
+<span class="project-title">
+  {% if value.link %}
+  <a href="{{ value.link }}" target="_blank">{{ value.title }}</a>
+  {% else %}
+  {{ value.title }}
+  {% endif %}
+</span>
+
+{% if value.tagline %}
+<span class="text-block">{{ value.tagline | markdownify }}</span>
+{% endif %}
+

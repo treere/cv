@@ -1,0 +1,134 @@
+- title: About Me
+  icon: fas fa-user
+  intro: >-
+    Amo programmare perchè mi da la possibilità di creare e al tempo stesso di smontare quello che già esiste
+    per comprenderne il funzionamento. Mi sono avvicinato al mondo dell'informatica dal C e nel tempo ho
+    familiarizzato con linguaggi di più alto livello e tecnologie molto distanti dall'hardware. 
+
+- title: Esperienze
+  icon: fas fa-briefcase
+  items:
+    - role: Developer
+      time: 2016 - presente
+      company: ARGO Vision
+      where: Milano
+      website: https://argo.vision
+      details: |
+        Seguo dallo sviluppo degli algoritmi di Computer Vision fino all'implementazione di questi per essere pronti per il cliente trasformando i prototipi in librerie ottimizzate per le performance. Ho afforntato problemi di classificazione, detection, riconoscimento di anomalie e ricostruzione 3d e ho integrato le soluzioni in contesti a microservizi, embedded e mobile.
+
+        ### Tecnologie maggiormente utilizzate
+        - **C++**
+        - **Rust**
+        - **Python**
+        - **Matlab**
+        - **Linux**
+        - **Git**
+          
+    - role: Volontario
+      time: 2011 - 2017
+      company: Spazio Studio Giambellitaly
+      where: Milano
+      website: https://www.facebook.com/spaziostudiogy
+      details: |
+        Ho gestito, insieme ad altri volontari, uno spazio aperto tutte le domeniche che offre agli studenti
+        universitari un luogo dove poter studiare. Mi sono occupato della gestione della struttura,
+        del coordinamento tra i volontari e della realizzazione del pranzo per gli utenti.
+
+    - role: Guida
+      time: 2011 
+      company: Centro Matematita
+      where: Milano
+      website: http://www.matematita.it
+      details: |
+        Ho fatto la guida alla mostra e ai laboratori destinati a ragazzi delle scuole elementari,
+        medie e superiori, con lo scopo di farli interessare alla matematica attraverso argomenti che a scuola
+        non vengono normalmente trattati.
+    
+- title: Educazione
+  icon: fas fa-graduation-cap
+  items:
+     - role: Laurea in Informatica
+       time: 2014 - 2020
+       company: Università degli studi di Milano
+       where: Milano
+       
+     - role: Laurea in Matematica
+       company: Università degli studi di Milano
+       where: Milano
+       time: 2009 - 2013
+
+     - role: Diploma di liceo scientifico
+       company: Liceo Scientifico Statale Vittorio Veneto
+       where: Milano
+       time: 2009 - 2013
+       # details: |
+       #   fillme
+      
+- title: Competenze tecniche
+  icon: fas fa-wrench
+  items:
+    - title: Linguaggi di programmazione
+      tagline: |
+        - C++
+        - Rust
+        - Java
+        - Python
+        - Bash
+        - SQL
+        - Javascript
+        - HTML
+        - CSS
+        - Lisp
+        
+    - title: Piattaforme e software
+      tagline: |
+        - Linux
+        - Docker
+        - Git
+        - Subversion
+        - Emacs
+        - Nodejs
+        
+- title: Interessi Personali
+  icon: fas fa-archive
+  items:
+    - title: Informatica
+      tagline: |        
+        Nel tempo libero mi piace studiare e scoprire le nuove tecnologie che escono quasi quotidianamente.
+        Non approfondisco solo gli aspetti pratici ma anche gli aspetti teorici che mi possono aiutare a
+        svolgere meglio il mio lavoro. 
+
+        Per questi motivi frequento abitualmente i meetup JUG, XPUG, Rust Milano e Opensource saturday, seguo conferenze e leggo libri.
+        
+    - title: Bicicletta
+      tagline: |
+        La bicicletta è il mio principale mezzo di spostamento. La uso per tutti gli spostamenti urbani e, quando possibile, mi accompagna in viaggi.
+        
+    - title: Cucina
+      tagline: |
+        Penso che mangiare sia uno dei piaceri della vita. Con la cucina si ha la possibilità di mescolare
+        ingredienti per creare qualcosa che è ben più della somma delle singole parti.        
+
+- title: Lingue
+  icon: fas fa-comment
+  items:
+    - title: Italiano
+      tagline: Madrelingua
+    - title: Inglese
+      tagline: Buono
+
+# - title: Projects
+#   intro: >
+#     You can list your side projects or open source libraries in this
+#     section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   items:
+#     - title: Velocity
+#       link: "#hook"
+#       tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  
+# - title: Skills
+#   toolset:
+#     - name: C++
+#       level: 90%
+
