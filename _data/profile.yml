@@ -10,9 +10,6 @@ contacts:
   - icon: fas fa-envelope
     link: mailto:tomasiandrea.at@gmail.com
     value: tomasiandrea.at@gmail.com
-  - icon: fas fa-phone
-    link: tel:+393471951673
-    value: +39 347 19 51 673
 
 
   - icon: fab fa-linkedin
