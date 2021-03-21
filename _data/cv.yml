@@ -48,7 +48,7 @@
   icon: fas fa-graduation-cap
   items:
      - role: Laurea in Informatica
-       time: 2014 - 2020
+       time: 2014 - 2021
        company: Università degli studi di Milano
        where: Milano
        
@@ -61,8 +61,8 @@
        company: Liceo Scientifico Statale Vittorio Veneto
        where: Milano
        time: 2009 - 2013
-       # details: |
-       #   fillme
+         # details: |
+         # fillme
       
 - title: Competenze tecniche
   icon: fas fa-wrench
@@ -74,7 +74,6 @@
         - Java
         - Python
         - Bash
-        - SQL
         - Javascript
         - HTML
         - CSS
