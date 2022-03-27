@@ -1,35 +1,37 @@
 - title: About Me
   icon: fas fa-user
   intro: >-
-    Amo programmare perché mi da la possibilità di creare e al tempo stesso di smontare quello che già esiste
-    per comprenderne il funzionamento. Mi sono avvicinato al mondo dell'informatica dal C e nel tempo ho
-    familiarizzato con linguaggi di più alto livello e tecnologie molto distanti dall'hardware. 
+    I love programming because it gives me the opportunity to build something new, as well as to analyze what already exists, disassemble it and understand how it works.
+    My first approach to programming was self-taught. 
+    I programmed for fun from high school until I earned a degree in mathematics.
+    I decided to improve my computer science fundamentals by resuming my studies. 
+    Today my main passion has become my job, but the curiosity and desire for discovery are still the same.
 
-- title: Esperienze
+- title: Experiences
   icon: fas fa-briefcase
   items:
     - role: Head of development
-      time: 2020 - presente
+      time: 2020 - present
       company: ARGO Vision
-      where: Milano
+      where: Milan, Italy
       website: https://argo.vision
-    - role: Sviluppatore
+    - role: Developer
       time: 2017 - 2020
       company: ARGO Vision
-      where: Milano
+      where: Milan, Italy
       website: https://argo.vision
-    - role: Stagista
+    - role: Internship
       time: 2016 - 2017
       company: ARGO Vision
-      where: Milano
+      where: Milan, Italy
       website: https://argo.vision
       details: |
-        Seguo dallo sviluppo degli algoritmi di Computer Vision fino all'implementazione di questi per essere
-        pronti per il cliente coordinando il team nella trasformazione dei prototipi in librerie ottimizzate per le performance.
-        Ho affrontato problemi di classificazione, detection, riconoscimento di anomalie e
-        ricostruzione 3d e ho integrato le soluzioni in contesti a micro-servizi, embedded e mobile.
+        I supervise and develop Computer Vision algorithms from prototyping to implementation. 
+        I am one of the maintainers of our vision library in C++: I work on both architecture and performance. 
+        The library has been successfully used on low-power ARM devices, smartphones, and x86 servers.
+        I have addressed classification, detection, anomaly recognition and 3D reconstruction problems.
 
-        ### Tecnologie maggiormente utilizzate
+        ### Most used technologies
         - **C++**
         - **Git**
         - **Linux**
@@ -37,63 +39,49 @@
         - **Python**
         - **Rust**
           
-    - role: Volontario
+    - role: Volunteer
       time: 2011 - 2017
       company: Spazio Studio Giambellitaly
-      where: Milano
+      where: Milan, Italy
       website: https://www.facebook.com/spaziostudiogy
       details: |
-        Ho gestito, insieme ad altri volontari, uno spazio aperto tutte le domeniche che offre agli studenti
-        universitari un luogo dove poter studiare. Mi sono occupato della gestione della struttura,
-        del coordinamento tra i volontari e della realizzazione del pranzo per gli utenti.
-
-    - role: Guida
-      time: 2011 
-      company: Centro Matematita
-      where: Milano
-      website: http://www.matematita.it
-      details: |
-        Ho fatto la guida alla mostra e ai laboratori destinati a ragazzi delle scuole elementari,
-        medie e superiori, con lo scopo di farli interessare alla matematica attraverso argomenti che a scuola
-        non vengono normalmente trattati.
+        Along with other volunteers, I managed a place where university students could study. I was responsible for managing and coordinating the facility, preparing lunch for the users.
     
-- title: Educazione
+- title: Education
   icon: fas fa-graduation-cap
   items:
-     - role: Laurea in Informatica
+     - role: Bachelor degree in Computer Science
        time: 2014 - 2021
-       company: Università degli studi di Milano
-       where: Milano
+       company: Università degli Studi di Milano
+       where: Milan, Italy
        
-     - role: Laurea in Matematica
-       company: Università degli studi di Milano
-       where: Milano
+     - role: Bachelor degree in Mathematics
+       company: Università degli Studi di Milano
+       where: Milan, Italy
        time: 2009 - 2013
 
-     - role: Diploma di liceo scientifico
+     - role: Scientific high school diploma
        company: Liceo Scientifico Statale Vittorio Veneto
-       where: Milano
+       where: Milan, Italy
        time: 2009 - 2013
          # details: |
          # fillme
       
-- title: Competenze tecniche
+- title: Technical skills
   icon: fas fa-wrench
   items:
-    - title: Linguaggi di programmazione
+    - title: Programming languages
       tagline: |
         - Bash
+        - C
         - C++
-        - CSS
-        - HTML
         - Java
         - Javascript
         - Lisp
         - Python
         - Rust
-        - SQL
         
-    - title: Piattaforme e software
+    - title: Platforms and software
       tagline: |
         - Docker
         - Emacs
@@ -102,33 +90,32 @@
         - Nodejs
         - Subversion
         
-- title: Interessi Personali
+- title: Personal interests
   icon: fas fa-archive
   items:
-    - title: Informatica
+    - title: Computer science
       tagline: |        
-        Nel tempo libero mi piace studiare e scoprire le nuove tecnologie che escono quasi quotidianamente.
-        Non approfondisco solo gli aspetti pratici ma anche gli aspetti teorici che mi possono aiutare a
-        svolgere meglio il mio lavoro. 
+        I like to study and keep up to date with new technologies.
+        I enjoy deepening both their practical and theoretical sides.
 
-        Per questi motivi frequento abitualmente i meetup JUG, XPUG, Rust Milano e Opensource Saturday, seguo conferenze e leggo libri.
-        
-    - title: Bicicletta
-      tagline: |
-        La bicicletta è il mio principale mezzo di spostamento. La uso per tutti gli spostamenti urbani e, quando possibile, mi accompagna nei miei viaggi.
-        
-    - title: Cucina
-      tagline: |
-        Penso che mangiare sia uno dei piaceri della vita. Con la cucina si ha la possibilità di mescolare
-        ingredienti per creare qualcosa che è ben più della somma delle singole parti.        
+        I usually attend different meetups: JUG (Jvm User Group), XPUG (eXtreme Programming User Group), Rust Milano and Opensource Saturday.
 
-- title: Lingue
-  icon: fas fa-comment
-  items:
-    - title: Italiano
-      tagline: Madrelingua
-    - title: Inglese
-      tagline: Buono
+    - title: Bike
+      tagline: |
+        Bicycle is my primary mode of transportation. I use it for all urban travel and, when possible, for my excursions.
+        
+    - title: Food
+      tagline: |
+        I think eating is one of life's pleasures.
+        With cooking you have the ability to mix and match ingredients to create something that is far more than the sum of its parts.
+
+# - title: Languages
+#   icon: fas fa-comment
+#   items:
+#     - title: Italian
+#       tagline: Native speaker
+#     - title: English
+#       tagline: Good
 
 # - title: Projects
 #   intro: >
