@@ -4,7 +4,7 @@ avatar: profile.png  # 100x100 picture
 
 contacts:
   - icon: fas fa-map-marker
-    value: Milano
+    value: Milano, Italia
   - icon: fas fa-birthday-cake
     value: 20/07/1990
   - icon: fas fa-envelope
