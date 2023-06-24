@@ -10,17 +10,15 @@ contacts:
   - icon: fas fa-envelope
     link: mailto:tomasiandrea.at@gmail.com
     value: tomasiandrea.at@gmail.com
-
-
   - icon: fab fa-linkedin
     link: https://linkedin.com/in/andrea-tomasi-b19921100
     value: andrea-tomasi-b19921100
-  # - icon: fab fa-github 
-  #   link: http://github.com/treere
-  #   value: treere
+  - icon: fab fa-github 
+    link: http://github.com/treere
+    value: treere
   # - icon: fab fa-twitter
   #   link: https://twitter.com/tre3ere
   #   value: tre3ere
-  - icon: fab fa-goodreads-g
-    link: https://www.goodreads.com/user/show/82283396-andrea-tomasi
-    value: 82283396-andrea-tomasi
+  # - icon: fab fa-goodreads-g
+  #   link: https://www.goodreads.com/user/show/82283396-andrea-tomasi
+  #   value: 82283396-andrea-tomasi
