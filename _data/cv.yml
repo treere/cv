@@ -18,7 +18,7 @@
       details: |
         I develop both the back-end and front-end of our platform.
         
-        ### Most used technologies
+        # Most used technologies
         - Elixir
         - Phoenix
         - SQL
@@ -46,7 +46,7 @@
         The library has been successfully used on low-power ARM devices, smartphones, and x86 servers.
         I have addressed classification, detection, anomaly recognition and 3D reconstruction problems.
 
-        ### Most used technologies
+        # Most used technologies
         - C++
         - Matlab
         - Python
