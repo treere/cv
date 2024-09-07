@@ -148,6 +148,6 @@
   .links {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: var(--spacing-1);
   }
 </style>

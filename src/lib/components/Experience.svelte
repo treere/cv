@@ -39,15 +39,15 @@
 
 <style lang="scss">
   a {
-    color: #2d7788;
+    color: var(--color-link);
   }
 
   a:hover {
-    color: #1a454f;
+    color: var(--color-link-hover);
   }
 
   .job-description {
-    margin-bottom: 15px;
+    margin-bottom: var(--spacing-2);
   }
 
   .role {
@@ -60,7 +60,7 @@
     flex-direction: column;
 
     > div:last-child {
-      color: #97aac3;
+      color: var(--color-subtitle);
     }
 
     @media (min-width: 450px) {
@@ -73,10 +73,10 @@
   }
 
   .tecnologies {
-    margin-top: 10px;
+    margin-top: var(--spacing-2);
 
     .title {
-      color: rgba(0, 0, 0, 0.7);
+      color: var(--color-title);
       font-size: 14px;
       font-weight: 600;
       margin: 0;

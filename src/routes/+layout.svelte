@@ -5,11 +5,11 @@
 <style type="scss">
   :global {
     body {
-      background: #f5f5f5;
-      padding: 30px 10px;
-      margin: 0px;
+      background: var(--color-light-background);
+      padding: var(--spacing-4) var(--spacing-1);
+      margin: 0;
       font-family: 'Roboto', sans-serif;
-      color: #545e6c;
+      color: var(--color-main-text);
       line-height: 1.4;
       font-size: 14px;
     }
@@ -18,7 +18,8 @@
       text-decoration: none;
     }
 
-    a:hover, a:focus {
+    a:hover,
+    a:focus {
       text-decoration: underline;
     }
   }

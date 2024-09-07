@@ -13,6 +13,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: var(--spacing-1);
   }
 </style>

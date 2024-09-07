@@ -7,6 +7,6 @@
 
 <style lang="scss">
   h3 {
-    margin: 10px 0 5px;
+    margin: var(--spacing-2) 0 var(--spacing-1);
   }
 </style>

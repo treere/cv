@@ -11,12 +11,12 @@
 <style lang="scss">
   ul {
     list-style: none;
-    padding-left: 10px;
+    padding-left: var(--spacing-1);
     margin: 0;
   }
 
   li {
     display: inline-block;
-    padding: 0.25em 0.4em;
+    padding: 0 var(--spacing-1);
   }
 </style>

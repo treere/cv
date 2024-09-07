@@ -1,0 +1,19 @@
+:root {
+  $spacing-step: 8px;
+  @for $i from 1 through 8 {
+    --spacing-#{$i}: #{$spacing-step * $i};
+  }
+
+  --color-link: #2d7788;
+  --color-link-hover: #1a454f;
+  --color-link-light: white;
+
+  --color-title: rgba(0, 0, 0, 0.7);
+  --color-subtitle: #97aac3;
+  --color-main-text: #545e6c;
+
+  --color-light-background: #f5f5f5;
+  --color-white-background: #fff;
+  --color-too-dark-background: #42a8c0;
+  --color-dark-background: #35879a;
+}

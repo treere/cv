@@ -23,16 +23,16 @@
     font-size: 32px;
     line-height: 1.1;
     font-weight: 900;
-    margin: 15px 0px 10px;
-    color: #ffffff;
+    margin: var(--spacing-2) 0 var(--spacing-1);
+    color: var(--color-link-light);
     text-wrap: nowrap;
   }
 
   h2 {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--color-link-light);
     font-size: 16px;
     font-weight: 400;
-    margin: 0px;
+    margin: 0;
   }
 
   img {

@@ -11,16 +11,16 @@
 
 <style lang="scss">
   .section {
-    margin-bottom: 15px;
+    margin-bottom: var(--spacing-2);
 
     .title {
       text-transform: uppercase;
       font-size: 20px;
       font-weight: 500;
-      color: #2d7788;
+      color: var(--color-link);
       position: relative;
       margin-top: 0;
-      margin-bottom: 10px;
+      margin-bottom: var(--spacing-1);
     }
 
     .body {

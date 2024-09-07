@@ -16,7 +16,7 @@
   .container {
     display: flex;
     margin: auto;
-    background: #fff;
+    background: var(--color-white-background);
     flex-direction: column-reverse;
     max-width: 1000px;
 
@@ -26,17 +26,17 @@
   }
 
   .central {
-    padding: 20px;
+    padding: var(--spacing-3);
 
     @media (min-width: 1000px) {
-      padding: 60px;
-      padding-right: 40px;
+      padding: var(--spacing-8);
+      padding-right: var(--spacing-5);
     }
   }
 
   .sidebar {
     min-width: 280px;
-    background: #42a8c0;
+    background: var(--color-too-dark-background);
     display: flex;
     flex-direction: column;
 
@@ -46,16 +46,16 @@
     }
 
     .top-sidebar {
-      background: #35879a;
-      padding: 20px;
+      background: var(--color-dark-background);
+      padding: var(--spacing-4);
     }
 
     .bottom-sidebar {
-      padding: 20px;
-      color: #ffffff;
+      padding: var(--spacing-4);
+      color: var(--color-link-light);
 
       :global(a) {
-        color: #ffffff;
+        color: var(--color-link-light);
       }
     }
   }
