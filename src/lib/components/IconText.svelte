@@ -8,7 +8,7 @@
   <slot />
 </div>
 
-<style>
+<style lang="scss">
   div {
     display: flex;
     flex-direction: row;

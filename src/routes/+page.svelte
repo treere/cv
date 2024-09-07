@@ -12,6 +12,15 @@
 </script>
 
 <Page>
+  <Profile name="Andrea Tomasi" role="Developer" image="profile.webp" slot="top-sidebar" />
+
+  <div slot="bottom-sidebar" class="links">
+    <Location city="Milan" state="Italy" />
+    <Email email="tomasiandrea.at@gmail.com" />
+    <Linkedin name="andrea-tomasi-b19921100" />
+    <Github username="treere" />
+  </div>
+
   <svelte:fragment slot="central">
     <Section title="About me">
       I absolutely love programming! It's like a playground for building something new and cool, and
@@ -133,15 +142,6 @@
       </Subsection>
     </Section>
   </svelte:fragment>
-
-  <Profile name="Andrea Tomasi" role="Developer" image="profile.webp" slot="top-sidebar" />
-
-  <div slot="bottom-sidebar" class="links">
-    <Location city="Milan" state="Italy" />
-    <Email email="tomasiandrea.at@gmail.com" />
-    <Linkedin name="andrea-tomasi-b19921100" />
-    <Github username="treere" />
-  </div>
 </Page>
 
 <style lang="scss">

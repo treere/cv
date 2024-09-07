@@ -8,10 +8,11 @@
   {/each}
 </ul>
 
-<style>
+<style lang="scss">
   ul {
     list-style: none;
     padding-left: 10px;
+    margin: 0;
   }
 
   li {

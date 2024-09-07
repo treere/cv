@@ -11,7 +11,7 @@
 
 <style lang="scss">
   .section {
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 
     .title {
       text-transform: uppercase;

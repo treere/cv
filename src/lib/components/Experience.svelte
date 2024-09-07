@@ -57,11 +57,18 @@
 
   .row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     > div:last-child {
-      margin-left: auto;
       color: #97aac3;
+    }
+
+    @media (min-width: 450px) {
+      flex-direction: row;
+
+      > div:last-child {
+        margin-left: auto;
+      }
     }
   }
 
@@ -72,6 +79,7 @@
       color: rgba(0, 0, 0, 0.7);
       font-size: 14px;
       font-weight: 600;
+      margin: 0;
     }
   }
 </style>
