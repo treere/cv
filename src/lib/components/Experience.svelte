@@ -1,10 +1,12 @@
 <script lang="ts">
+  import LineList from './LineList.svelte';
+
   export let role: string;
   export let time: string;
   export let company: string;
   export let where: string;
   export let website: string | undefined = undefined;
-  export let tecnologies: string[] | undefined = undefined;
+  export let technologies: string[] | undefined = undefined;
 </script>
 
 <div class="job-description">
@@ -28,15 +30,10 @@
 
 <slot />
 
-{#if tecnologies !== undefined}
-  <div>
-    <div class="tecnologies-title">Most used technologies</div>
-
-    <ul class="tecnologies-list">
-      {#each tecnologies as tecnology}
-        <li>{tecnology}</li>
-      {/each}
-    </ul>
+{#if technologies !== undefined}
+  <div class="tecnologies">
+    <h4 class="title">Technologies</h4>
+    <LineList list={technologies} />
   </div>
 {/if}
 
@@ -61,28 +58,20 @@
   .row {
     display: flex;
     flex-direction: row;
-  }
-  .row > div:last-child {
-    margin-left: auto;
-    color: #97aac3;
+
+    > div:last-child {
+      margin-left: auto;
+      color: #97aac3;
+    }
   }
 
-  .tecnologies-title {
-    margin-bottom: 10px;
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 14px;
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+  .tecnologies {
+    margin-top: 10px;
 
-  .tecnologies-list {
-    list-style: none;
-    padding-left: 10px;
-  }
-
-  .tecnologies-list li {
-    display: inline-block;
-    padding: 0.25em 0.4em;
+    .title {
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 14px;
+      font-weight: 600;
+    }
   }
 </style>

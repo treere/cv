@@ -2,6 +2,7 @@
   import Email from '$lib/components/Email.svelte';
   import Experience from '$lib/components/Experience.svelte';
   import Github from '$lib/components/Github.svelte';
+  import LineList from '$lib/components/LineList.svelte';
   import Location from '$lib/components/Location.svelte';
   import Linkedin from '$lib/components/Linkedin.svelte';
   import Page from '$lib/components/Page.svelte';
@@ -13,12 +14,11 @@
 <Page>
   <svelte:fragment slot="central">
     <Section title="About me">
-      I love programming because it gives me the opportunity to build something new, as well as to
-      analyze what already exists, disassemble it and understand how it works. My first approach to
-      programming was self-taught. I programmed for fun from high school until graduated with a
-      degree in mathematics. I decided to improve my computer science basics by resuming my studies.
-      Today my main passion has become my job and the curiosity and desire for discovery are still
-      the same.
+      I absolutely love programming! It's like a playground for building something new and cool, and
+      figuring out how other stuff works. I first started teaching myself to code back in high
+      school, and just kept on going through college while getting my math degree. Eventually, I
+      went back to school to learn even more about computer science. Now, programming is not just a
+      hobby, but my job too - and I still get a kick out of learning and discovering new things.
     </Section>
 
     <Section title="Experiences">
@@ -28,9 +28,24 @@
         company="Sibill"
         where="Milan, Italy"
         website="https://sibill.it"
-        tecnologies={['Elixir', 'Phoenix', 'SQL', 'Reactjs', 'HTML/CSS']}
+        technologies={[
+          'Elixir',
+          'Phoenix',
+          'SQL',
+          'Typescript',
+          'Reactjs',
+          'HTML/CSS',
+          'RabbitMQ',
+          'Elastic Search'
+        ]}
       >
-        I develop both the back-end and front-end of our platform.
+        As a full-stack developer, I not only develop both the back-end and front-end of the
+        platform but also actively collaborate with product managers and designers. I have a strong
+        preference for agile methodologies, which emphasize close-knit teams, frequent
+        communication, and the ability to adapt to changing requirements. Effective communication
+        and teamwork are essential to ensure that the platform meets the desired functionality,
+        usability, and performance requirements, while the agile approach allows for a more flexible
+        and iterative development process.
       </Experience>
       <Experience
         role="Head of development"
@@ -52,23 +67,14 @@
         company="ARGO Vision"
         where="Milan, Italy"
         website="https://argo.vision"
-        tecnologies={['C++', 'Matlab', 'Python', 'Rust']}
+        technologies={['C++', 'Python', 'Rust', 'Matlab']}
       >
-        I supervise and develop Computer Vision algorithms from prototyping to implementation. I am
-        one of the maintainers of our vision library in C++: I deal with both architecture and
-        performance. The library has been successfully used on low-power ARM devices, smartphones,
-        and x86 servers. I have addressed classification, detection, anomaly recognition and 3D
-        reconstruction problems.
-      </Experience>
-      <Experience
-        role="Volunteer"
-        time="2011 - 2017"
-        company="Spazio Studio Giambellitaly"
-        where="Milan, Italy"
-        website="https://www.facebook.com/spaziostudiogy"
-      >
-        Along with other volunteers, I managed a place where university students could study. I was
-        responsible for managing and coordinating the facility, preparing lunch for the users.
+        As a Computer Vision expert, I am responsible for designing, prototyping, and implementing
+        advanced Computer Vision algorithms. I oversee the development of our in-house vision
+        library implemented in C++, which involves managing both the architectural design and
+        performance optimization of the library. I am proud to say that the library has been
+        successfully used in various systems, ranging from low-power ARM devices and smartphones to
+        x86.
       </Experience>
     </Section>
 
@@ -94,28 +100,36 @@
     </Section>
 
     <Section title="Technical skills">
-      <h3>Programming languages</h3>
-      Bash C C++ Elixir Java Javascript Lisp Python Rust SQL Typescript
+      <Subsection title="Programming languages">
+        <LineList list={['Bash', 'C++', 'Elixir', 'Python', 'Rust', 'SQL', 'Typescript']} />
+      </Subsection>
 
-      <h3>Platforms and software</h3>
-      AWS Docker Emacs Git Linux Nodejs PostgreSQL Subversion Terraform
+      <Subsection title="Platforms and software">
+        <LineList
+          list={['AWS', 'Docker', 'Emacs', 'Git', 'Linux', 'Nodejs', 'PostgreSQL', 'Terraform']}
+        />
+      </Subsection>
     </Section>
 
     <Section title="Personal interests">
       <Subsection title="Computer science">
-        I like to study and keep up to date with new technologies. I enjoy deepening both their
-        practical and theoretical sides. I usually attend different meetups: JUG (Jvm User Group),
-        XPUG (eXtreme Programming User Group), Rust Milano and Opensource Saturday.
+        I really enjoy learning about and staying current with new technologies. I love diving into
+        both the practical and theoretical aspects of them. I often attend various meetups to fuel
+        my curiosity, such as JVM User Group, eXtreme Programming User Group, Rust Milano, and
+        Opensource Saturday. It's a great way to connect with like-minded people and learn from each
+        other's experiences!
       </Subsection>
 
       <Subsection title="Bike">
-        Bicycle is my primary mode of transportation. I use it for all urban travel and, when
-        possible, for my excursions.
+        My bicycle is my go-to mode of transportation for urban travel and excursions. I love the
+        exercise and connection to the environment it provides. Whether I'm running errands or
+        exploring new places, cycling brings me joy and fulfillment.
       </Subsection>
 
       <Subsection title="Food">
-        I think eating is one of life's pleasures. With cooking you have the ability to mix and
-        match ingredients to create something that is far more than the sum of its parts.
+        I believe that eating is one of life's greatest pleasures. Cooking allows me to combine
+        ingredients in creative ways, resulting in dishes that are greater than the sum of their
+        parts. It's a fun and rewarding way to express myself and nourish my body.
       </Subsection>
     </Section>
   </svelte:fragment>
