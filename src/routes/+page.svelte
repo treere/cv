@@ -1,14 +1,17 @@
 <script>
-  import Section from '$lib/components/Section.svelte';
-  import Subsection from '$lib/components/Subsection.svelte';
+  import Email from '$lib/components/Email.svelte';
   import Experience from '$lib/components/Experience.svelte';
+  import Github from '$lib/components/Github.svelte';
+  import Location from '$lib/components/Location.svelte';
+  import Linkedin from '$lib/components/Linkedin.svelte';
   import Page from '$lib/components/Page.svelte';
   import Profile from '$lib/components/Profile.svelte';
-  import Icon from '$lib/components/Icon.svelte';
+  import Section from '$lib/components/Section.svelte';
+  import Subsection from '$lib/components/Subsection.svelte';
 </script>
 
 <Page>
-  <div slot="central">
+  <svelte:fragment slot="central">
     <Section title="About me">
       I love programming because it gives me the opportunity to build something new, as well as to
       analyze what already exists, disassemble it and understand how it works. My first approach to
@@ -115,28 +118,15 @@
         match ingredients to create something that is far more than the sum of its parts.
       </Subsection>
     </Section>
-  </div>
+  </svelte:fragment>
 
-  <div slot="top-sidebar">
-    <Profile name="Andrea Tomasi" role="Developer" image="profile.webp" />
-  </div>
+  <Profile name="Andrea Tomasi" role="Developer" image="profile.webp" slot="top-sidebar" />
+
   <div slot="bottom-sidebar" class="links">
-    <div>
-      <Icon name="location.svg" size="16px" />
-      Milan, Italy
-    </div>
-    <div>
-      <Icon name="email.svg" size="16px" />
-      <a href="mailto:tomasiandrea.at@gmail.com">tomasiandrea.at@gmail.com</a>
-    </div>
-    <div>
-      <Icon name="linkedin.svg" size="16px" />
-      <a href="https://linkedin.com/in/andrea-tomasi-b19921100">andrea-tomasi-b19921100</a>
-    </div>
-    <div>
-      <Icon name="github.svg" size="16px" />
-      <a href="http://github.com/treere">treere</a>
-    </div>
+    <Location city="Milan" state="Italy" />
+    <Email email="tomasiandrea.at@gmail.com" />
+    <Linkedin name="andrea-tomasi-b19921100" />
+    <Github username="treere" />
   </div>
 </Page>
 
@@ -145,12 +135,5 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-
-    > div {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 10px;
-    }
   }
 </style>
