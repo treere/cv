@@ -1,4 +1,9 @@
-<div class="main-container">
+<script lang="ts">
+  import LanguageSelector from '$lib/components/LanguageSelector.svelte';
+</script>
+
+<LanguageSelector />
+<div>
   <slot></slot>
 </div>
 
@@ -6,7 +11,7 @@
   :global {
     body {
       background: var(--color-light-background);
-      padding: var(--spacing-4) var(--spacing-1);
+      margin: var(--spacing-4) var(--spacing-1);
       margin: 0;
       font-family: 'Roboto', sans-serif;
       color: var(--color-main-text);

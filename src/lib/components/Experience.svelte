@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/translations';
   import LineList from './LineList.svelte';
 
   export let role: string;
@@ -32,7 +33,7 @@
 
 {#if technologies !== undefined}
   <div class="tecnologies">
-    <h4 class="title">Technologies</h4>
+    <h4 class="title">{$t('cv.technologies')}</h4>
     <LineList list={technologies} />
   </div>
 {/if}
