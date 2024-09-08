@@ -1,1 +1,54 @@
-{"a": "ciao mondo"}
+{
+  "about_me": {
+    "title": "Informazioni su di me",
+    "description": "Adoro la programmazione! È come un parco giochi per creare qualcosa di nuovo e interessante e capire come funzionano altre cose. Ho iniziato a imparare a programmare da solo al liceo e ho continuato a studiare all'università mentre prendevo la mia laurea in matematica. Alla fine, sono tornato a scuola per imparare ancora di più sull'informatica. Ora la programmazione non è solo un hobby, ma anche il mio lavoro, e mi diverto ancora a imparare e scoprire cose nuove."
+  },
+  "experiences": {
+    "title": "Esperienze",
+    "sibill": {
+      "description": "Come sviluppatore full-stack, non solo sviluppo sia il back-end che il front-end della piattaforma, ma collaboro anche attivamente con product manager e designer. Ho una forte preferenza per le metodologie agili, che enfatizzano team affiatati, comunicazioni frequenti e la capacità di adattarsi a requisiti mutevoli. Una comunicazione efficace e il lavoro di squadra sono essenziali per garantire che la piattaforma soddisfi i requisiti desiderati di funzionalità, usabilità e prestazioni, mentre l'approccio agile consente un processo di sviluppo più flessibile e iterativo."
+    },
+    "argo": {
+      "description": "Come esperto di Computer Vision, sono responsabile della progettazione, della prototipazione e dell'implementazione di algoritmi avanzati di Computer Vision. Supervisiono lo sviluppo della nostra libreria di visione interna implementata in C++, che comporta la gestione sia della progettazione architettonica che dell'ottimizzazione delle prestazioni della libreria. Sono orgoglioso di dire che la libreria è stata utilizzata con successo in vari sistemi, che vanno dai dispositivi ARM a basso consumo e smartphone a x86."
+    }
+  },
+  "education": {
+    "title": "Istruzione",
+    "cs_bachelor": "Laurea triennale in Informatica",
+    "math_bachelor": "Laurea triennale in Matematica",
+    "diploma": "Diploma di scuola superiore scientifica"
+  },
+  "technical_skills": {
+    "title": "Competenze tecniche",
+    "programming_languages": "Linguaggi di programmazione",
+    "platforms_and_software": "Piattaforme e software"
+  },
+  "personal_interests": {
+    "title": "Interessi personali",
+    "computer_science": {
+      "title": "Informatica",
+      "description": "Mi piace molto imparare e rimanere aggiornato sulle nuove tecnologie. Amo immergermi sia negli aspetti pratici che teorici. Partecipo spesso a vari incontri per alimentare la mia curiosità, come JVM User Group, eXtreme Programming User Group, Rust Milano e Opensource Saturday. È un ottimo modo per entrare in contatto con persone che la pensano allo stesso modo e imparare dalle esperienze degli altri!"
+    },
+    "bike": {
+      "title": "Bicicletta",
+      "description": "La mia bicicletta è il mio mezzo di trasporto preferito per i viaggi urbani e le escursioni. Amo l'esercizio e il legame con l'ambiente che offre. Che io stia facendo commissioni o esplorando nuovi posti, andare in bicicletta mi porta gioia e soddisfazione."
+    },
+    "food": {
+      "title": "Cibo",
+      "description": "Credo che mangiare sia uno dei più grandi piaceri della vita. Cucinare mi consente di combinare gli ingredienti in modo creativo, dando vita a piatti che sono più grandi della somma delle loro parti. È un modo divertente e gratificante per esprimere me stessa e nutrire il mio corpo."
+    }
+  },
+  "roles": {
+    "senior_developer": "Sviluppatore senior",
+    "head_of_development": "Responsabile dello sviluppo",
+    "developer": "Sviluppatore",
+    "internship": "Tirocinio"
+  },
+  "locations": {
+    "milan": "Milano, Italia",
+    "milan_expanded": {
+      "city": "Milano",
+      "state": "Italia"
+    }
+  }
+}

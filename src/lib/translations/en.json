@@ -1,1 +1,54 @@
-{"a": "hello world"}
+{
+  "about_me": {
+    "title": "About me",
+    "description": "I absolutely love programming! It's like a playground for building something new and cool, and figuring out how other stuff works. I first started teaching myself to code back in high school, and just kept on going through college while getting my math degree. Eventually, I went back to school to learn even more about computer science. Now, programming is not just a hobby, but my job too - and I still get a kick out of learning and discovering new things."
+  },
+  "experiences": {
+    "title": "Experiences",
+    "sibill": {
+      "description": "As a full-stack developer, I not only develop both the back-end and front-end of the platform but also actively collaborate with product managers and designers. I have a strong preference for agile methodologies, which emphasize close-knit teams, frequent communication, and the ability to adapt to changing requirements. Effective communication and teamwork are essential to ensure that the platform meets the desired functionality, usability, and performance requirements, while the agile approach allows for a more flexible and iterative development process."
+    },
+    "argo": {
+      "description": "As a Computer Vision expert, I am responsible for designing, prototyping, and implementing advanced Computer Vision algorithms. I oversee the development of our in-house vision library implemented in C++, which involves managing both the architectural design and performance optimization of the library. I am proud to say that the library has been successfully used in various systems, ranging from low-power ARM devices and smartphones to x86."
+    }
+  },
+  "education": {
+    "title": "Education",
+    "cs_bachelor": "Bachelor degree in Computer Science",
+    "math_bachelor": "Bachelor degree in Mathematics",
+    "diploma": "Scientific high school diploma"
+  },
+  "technical_skills": {
+    "title": "Technical skills",
+    "programming_languages": "Programming languages",
+    "platforms_and_software": "Platforms and software"
+  },
+  "personal_interests": {
+    "title": "Personal interests",
+    "computer_science": {
+      "title": "Computer science",
+      "description": "I really enjoy learning about and staying current with new technologies. I love diving into both the practical and theoretical aspects of them. I often attend various meetups to fuel my curiosity, such as JVM User Group, eXtreme Programming User Group, Rust Milano, and Opensource Saturday. It's a great way to connect with like-minded people and learn from each other's experiences!"
+    },
+    "bike": {
+      "title": "Bike",
+      "description": "My bicycle is my go-to mode of transportation for urban travel and excursions. I love the exercise and connection to the environment it provides. Whether I'm running errands or exploring new places, cycling brings me joy and fulfillment."
+    },
+    "food": {
+      "title": "Food",
+      "description": "I believe that eating is one of life's greatest pleasures. Cooking allows me to combine ingredients in creative ways, resulting in dishes that are greater than the sum of their parts. It's a fun and rewarding way to express myself and nourish my body."
+    }
+  },
+  "roles": {
+    "senior_developer": "Senior Developer",
+    "head_of_development": "Head of development",
+    "developer": "Developer",
+    "internship": "Internship"
+  },
+  "locations": {
+    "milan": "Milan, Italy",
+    "milan_expanded": {
+      "city": "Milan",
+      "state": "Italy"
+    }
+  }
+}
