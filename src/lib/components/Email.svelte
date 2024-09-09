@@ -5,7 +5,9 @@
   export let email;
 </script>
 
-<RowContainer icon="email.svg">
-  <Email width={'16px'} height={'16px'} />
-  <a href={`mailto:${email}`}>{email}</a>
-</RowContainer>
+<a href={`mailto:${email}`}>
+  <RowContainer icon="email.svg">
+    <Email width={'16px'} height={'16px'} />
+    <span>{email}</span>
+  </RowContainer>
+</a>

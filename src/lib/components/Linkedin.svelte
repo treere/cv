@@ -5,7 +5,9 @@
   export let name;
 </script>
 
-<RowContainer>
-  <Linkedin width={'16px'} height={'16px'} />
-  <a href={`https://linkedin.com/in/${name}`}>{name}</a>
-</RowContainer>
+<a href={`https://linkedin.com/in/${name}`} target="_blank">
+  <RowContainer>
+    <Linkedin width={'16px'} height={'16px'} />
+    <span>{name}</span>
+  </RowContainer>
+</a>

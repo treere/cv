@@ -5,7 +5,9 @@
   export let username;
 </script>
 
-<RowContainer>
-  <Github width={'16px'} height={'16px'} />
-  <a href={`http://github.com/${username}`}>{username}</a>
-</RowContainer>
+<a href={`http://github.com/${username}`} target="_blank">
+  <RowContainer>
+    <Github width={'16px'} height={'16px'} />
+    <span>{username}</span>
+  </RowContainer>
+</a>
