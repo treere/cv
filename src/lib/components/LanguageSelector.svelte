@@ -11,7 +11,6 @@
   };
 </script>
 
-
 <div>
   {#if $initialized}
     {#each languages as lang}

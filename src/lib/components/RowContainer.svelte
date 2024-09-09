@@ -1,10 +1,4 @@
-<script>
-  import Icon from './Icon.svelte';
-  export let icon;
-</script>
-
 <div>
-  <Icon name={icon} size="16px" />
   <slot />
 </div>
 

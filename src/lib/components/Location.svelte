@@ -1,9 +1,12 @@
 <script>
-  import IconText from './IconText.svelte';
+  import RowContainer from './RowContainer.svelte';
+  import Location from './icons/Location.svelte';
+
   export let city;
   export let state;
 </script>
 
-<IconText icon="location.svg">
+<RowContainer>
+  <Location width={'16px'} height={'16px'} />
   <span>{city}, {state}</span>
-</IconText>
+</RowContainer>

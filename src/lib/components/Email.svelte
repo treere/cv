@@ -1,8 +1,11 @@
 <script>
-  import IconText from './IconText.svelte';
+  import RowContainer from './RowContainer.svelte';
+  import Email from './icons/Email.svelte';
+
   export let email;
 </script>
 
-<IconText icon="email.svg">
+<RowContainer icon="email.svg">
+  <Email width={'16px'} height={'16px'} />
   <a href={`mailto:${email}`}>{email}</a>
-</IconText>
+</RowContainer>

@@ -1,8 +1,11 @@
 <script>
-  import IconText from './IconText.svelte';
+  import RowContainer from './RowContainer.svelte';
+  import Github from './icons/Github.svelte';
+
   export let username;
 </script>
 
-<IconText icon="github.svg">
+<RowContainer>
+  <Github width={'16px'} height={'16px'} />
   <a href={`http://github.com/${username}`}>{username}</a>
-</IconText>
+</RowContainer>
