@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { locale } from '$lib/translations';
+  import { locale, loading, initialized } from '$lib/translations';
 
   const languages = [
     { val: 'en', flag: 'https://flagcdn.com/w20/us.png', alt: 'Italian Flag' },
@@ -11,12 +11,17 @@
   };
 </script>
 
+
 <div>
-  {#each languages as lang}
-    <button on:click={() => selectFlag(lang.val)}>
-      <img src={lang.flag} alt={lang.alt} />
-    </button>
-  {/each}
+  {#if $initialized}
+    {#each languages as lang}
+      <button on:click={() => selectFlag(lang.val)} disabled={$loading}>
+        <img src={lang.flag} alt={lang.alt} />
+      </button>
+    {/each}
+  {:else}
+    Loading languages
+  {/if}
 </div>
 
 <style>
