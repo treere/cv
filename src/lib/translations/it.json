@@ -1,15 +1,15 @@
 {
   "about_me": {
     "title": "Informazioni su di me",
-    "description": "Adoro la programmazione! È come un parco giochi per creare qualcosa di nuovo e capire come funzionano le cose. Ho iniziato a imparare da solo al liceo, continuato all'università mentre prendevo la laurea in <strong>matematica</strong>. Alla fine, sono tornato a studiare <strong>informatica</strong>. Ora la programmazione non è solo un hobby, ma anche il mio lavoro."
+    "description": "Adoro la programmazione! È un parco giochi per creare sempre qualcosa di nuovo. Ho iniziato a imparare da solo al liceo, continuato all'università mentre prendevo la laurea in <strong>matematica</strong>. Alla fine, ho deciso di studiare anche <strong>informatica</strong>. Ora la programmazione non è solo un hobby, ma anche il mio lavoro."
   },
   "experiences": {
     "title": "Esperienze",
     "sibill": {
-      "description": "Sviluppatore <strong>full-stack</strong>: sviluppo sia il <strong>back-end</strong> che il <strong>front-end</strong> della piattaforma. Collaboro con product manager e designer. Preferisco le metodologie <strong>agile</strong>, team affiatati e comunicazione frequente."
+      "description": "Sviluppatore <strong>full-stack</strong>: sviluppo sia il <strong>back-end</strong> che il <strong>front-end</strong> della piattaforma collaborando con product manager e designer. Preferisco le metodologie <strong>agili</strong>, team affiatati e comunicazione frequente."
     },
     "argo": {
-      "description": "Esperto di <strong>Computer Vision</strong>: progettazione, prototipazione e implementazione di algoritmi avanzati. Ho supervisionato lo sviluppo di una libreria <strong>C++</strong> interna, con ottimizzazione delle performance per dispositivi <strong>ARM</strong>, smartphone e <strong>x86</strong>."
+      "description": "Esperto di <strong>Computer Vision</strong>: progettazione, prototipazione e implementazione di algoritmi avanzati. Ho supervisionato lo sviluppo della libreria proprietaria in <strong>C++</strong>, con ottimizzazione delle performance per dispositivi <strong>ARM</strong>, smartphone e <strong>x86</strong>."
     }
   },
   "education": {
@@ -27,15 +27,15 @@
     "title": "Interessi personali",
     "computer_science": {
       "title": "Informatica",
-      "description": "Ammiro e mi aggiorno sulle nuove tecnologie. Partecipo a vari meetup come JVM User Group, XP User Group, Rust Milano e Opensource Saturday."
+      "description": "Mi aggiorno sulle nuove tecnologie che nascono ogni giorno. Partecipo a vari meetup tra cui JVM User Group, XP User Group, Rust Milano e Opensource Saturday."
     },
     "bike": {
       "title": "Bicicletta",
-      "description": "La mia bicicletta è il mezzo di trasporto preferito per viaggi urbani e escursioni. L'esercizio e il legame con l'ambiente che offre mi portano gioia."
+      "description": "La mia bicicletta è il mezzo di trasporto principale per viaggi urbani e escursioni"
     },
     "food": {
       "title": "Cibo",
-      "description": "Credo che mangiare sia uno dei più grandi piaceri della vita. Cucinare mi consente di combinare gli ingredienti in modo creativo."
+      "description": "Credo che mangiare sia uno dei più grandi piaceri della vita. Cucinare mi consente di combinare gli ingredienti in modo creativo, dando vita a piatti che sono più grandi della somma delle loro parti."
     }
   },
   "roles": {
