@@ -1,15 +1,15 @@
 {
   "about_me": {
     "title": "About me",
-    "description": "I absolutely love programming! It's like a playground for building something new and cool, and figuring out how other stuff works. I first started teaching myself to code back in high school, and just kept on going through college while getting my math degree. Eventually, I went back to school to learn even more about computer science. Now, programming is not just a hobby, but my job too - and I still get a kick out of learning and discovering new things."
+    "description": "I absolutely love programming! It's a playground for building something new and figuring out how things work. I started teaching myself code in high school, kept going through university while getting my <strong>math</strong> degree, then went back to study <strong>computer science</strong>. Now it's not just a hobby - it's my job too."
   },
   "experiences": {
     "title": "Experiences",
     "sibill": {
-      "description": "As a full-stack developer, I not only develop both the back-end and front-end of the platform but also actively collaborate with product managers and designers. I have a strong preference for agile methodologies, which emphasize close-knit teams, frequent communication, and the ability to adapt to changing requirements. Effective communication and teamwork are essential to ensure that the platform meets the desired functionality, usability, and performance requirements, while the agile approach allows for a more flexible and iterative development process."
+      "description": "<strong>Full-stack</strong> developer for B2B platform. I develop both <strong>back-end</strong> and <strong>front-end</strong>, collaborate with product managers and designers. I prefer <strong>agile</strong> methodologies, close-knit teams and frequent communication."
     },
     "argo": {
-      "description": "As a Computer Vision expert, I am responsible for designing, prototyping, and implementing advanced Computer Vision algorithms. I oversee the development of our in-house vision library implemented in C++, which involves managing both the architectural design and performance optimization of the library. I am proud to say that the library has been successfully used in various systems, ranging from low-power ARM devices and smartphones to x86."
+      "description": "<strong>Computer Vision</strong> expert: designing, prototyping and implementing advanced algorithms. I led development of an internal <strong>C++</strong> library, with performance optimization for <strong>ARM</strong> devices, smartphones and <strong>x86</strong>."
     }
   },
   "education": {
@@ -27,15 +27,15 @@
     "title": "Personal interests",
     "computer_science": {
       "title": "Computer science",
-      "description": "I really enjoy learning about and staying current with new technologies. I love diving into both the practical and theoretical aspects of them. I often attend various meetups to fuel my curiosity, such as JVM User Group, eXtreme Programming User Group, Rust Milano, and Opensource Saturday. It's a great way to connect with like-minded people and learn from each other's experiences!"
+      "description": "I really enjoy learning about and staying current with new technologies. I often attend meetups like JVM User Group, XP User Group, Rust Milano and Opensource Saturday."
     },
     "bike": {
       "title": "Bike",
-      "description": "My bicycle is my go-to mode of transportation for urban travel and excursions. I love the exercise and connection to the environment it provides. Whether I'm running errands or exploring new places, cycling brings me joy and fulfillment."
+      "description": "My bicycle is my go-to mode of transportation for urban travel and excursions. The exercise and connection to the environment it provides brings me joy."
     },
     "food": {
       "title": "Food",
-      "description": "I believe that eating is one of life's greatest pleasures. Cooking allows me to combine ingredients in creative ways, resulting in dishes that are greater than the sum of their parts. It's a fun and rewarding way to express myself and nourish my body."
+      "description": "I believe that eating is one of life's greatest pleasures. Cooking allows me to combine ingredients in creative ways."
     }
   },
   "roles": {

@@ -33,7 +33,7 @@
 
   <svelte:fragment slot="central">
     <Section title={$t('cv.about_me.title')}>
-      {$t('cv.about_me.description')}
+      {@html $t('cv.about_me.description')}
     </Section>
 
     <Section title={$t('cv.experiences.title')}>
@@ -54,7 +54,7 @@
           'Elastic Search'
         ]}
       >
-        {$t('cv.experiences.sibill.description')}
+        {@html $t('cv.experiences.sibill.description')}
       </Experience>
       <Experience
         role={$t('cv.roles.head_of_development')}
@@ -78,7 +78,7 @@
         website="https://argo.vision"
         technologies={['C++', 'Python', 'Rust', 'Matlab']}
       >
-        {$t('cv.experiences.argo.description')}
+        {@html $t('cv.experiences.argo.description')}
       </Experience>
     </Section>
 
@@ -117,15 +117,15 @@
 
     <Section title={$t('cv.personal_interests.title')}>
       <Subsection title={$t('cv.personal_interests.computer_science.title')}>
-        {$t('cv.personal_interests.computer_science.description')}
+        {@html $t('cv.personal_interests.computer_science.description')}
       </Subsection>
 
       <Subsection title={$t('cv.personal_interests.bike.title')}>
-        {$t('cv.personal_interests.bike.description')}
+        {@html $t('cv.personal_interests.bike.description')}
       </Subsection>
 
       <Subsection title={$t('cv.personal_interests.food.title')}>
-        {$t('cv.personal_interests.food.description')}
+        {@html $t('cv.personal_interests.food.description')}
       </Subsection>
     </Section>
   </svelte:fragment>

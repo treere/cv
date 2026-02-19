@@ -38,6 +38,11 @@
 
     .body {
       text-align: justify;
+
+      :global(strong) {
+        color: var(--color-link);
+        font-weight: 600;
+      }
     }
   }
 </style>
