@@ -10,7 +10,7 @@
 <style type="scss">
   :global {
     body {
-      background: linear-gradient(135deg, #e8ecef 0%, #dde1e4 100%);
+      background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
       margin: var(--spacing-4) var(--spacing-1);
       margin: 0;
       min-height: 100vh;

@@ -1,36 +1,36 @@
-// Use https://goodpalette.io
-/* Primary: Moonstone */
-$primary-100: #f2faff;
-$primary-200: #cbecfe;
-$primary-300: #9fddf7;
-$primary-400: #70c8e4;
-$primary-500: #41a8bf;
-$primary-600: #228a99;
-$primary-700: #136c73;
-$primary-800: #0b4c4d;
-$primary-900: #052625;
+// Modern slate & emerald palette
+/* Primary: Slate */
+$primary-100: #f1f5f9;
+$primary-200: #e2e8f0;
+$primary-300: #cbd5e1;
+$primary-400: #94a3b8;
+$primary-500: #64748b;
+$primary-600: #475569;
+$primary-700: #334155;
+$primary-800: #1e293b;
+$primary-900: #0f172a;
 
-/* Accent: Lime Fizz */
-$accent-100: #fafff2;
-$accent-200: #eaffc4;
-$accent-300: #ddfc95;
-$accent-400: #d2f565;
-$accent-500: #c7e835;
-$accent-600: #a3b815;
-$accent-700: #7f8707;
-$accent-800: #565703;
-$accent-900: #262401;
+/* Accent: Emerald */
+$accent-100: #ecfdf5;
+$accent-200: #d1fae5;
+$accent-300: #a7f3d0;
+$accent-400: #6ee7b7;
+$accent-500: #34d399;
+$accent-600: #10b981;
+$accent-700: #059669;
+$accent-800: #047857;
+$accent-900: #064e3b;
 
 /* Neutral */
-$neutral-100: #fafbfc;
-$neutral-200: #e5e8ea;
-$neutral-300: #d1d5d7;
-$neutral-400: #bdc3c5;
-$neutral-500: #aab1b3;
-$neutral-600: #868e8f;
-$neutral-700: #646c6c;
-$neutral-800: #434949;
-$neutral-900: #222626;
+$neutral-100: #fafafa;
+$neutral-200: #f4f4f5;
+$neutral-300: #e4e4e7;
+$neutral-400: #d4d4d8;
+$neutral-500: #a1a1aa;
+$neutral-600: #71717a;
+$neutral-700: #52525b;
+$neutral-800: #3f3f46;
+$neutral-900: #27272a;
 
 :root {
   $spacing-step: 8px;
@@ -38,16 +38,16 @@ $neutral-900: #222626;
     --spacing-#{$i}: #{$spacing-step * $i};
   }
 
-  --color-link: #{$primary-700};
-  --color-link-hover: #{$primary-900};
-  --color-link-light: #{$primary-100};
+  --color-link: #{$accent-700};
+  --color-link-hover: #{$accent-900};
+  --color-link-light: #{$accent-100};
 
   --color-title: #{$neutral-900};
-  --color-subtitle: #{$neutral-700};
+  --color-subtitle: #{$neutral-600};
   --color-main-text: #{$neutral-800};
 
   --color-light-background: #{$neutral-200};
-  --color-white-background: #{$neutral-100};
-  --color-too-dark-background: #{$primary-500};
-  --color-dark-background: #{$primary-600};
+  --color-white-background: #ffffff;
+  --color-too-dark-background: #{$accent-900};
+  --color-dark-background: #{$primary-900};
 }

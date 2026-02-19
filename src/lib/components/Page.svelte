@@ -40,7 +40,7 @@
   .sidebar {
     min-width: 280px;
     background: linear-gradient(
-      135deg,
+      160deg,
       var(--color-too-dark-background),
       var(--color-dark-background)
     );
@@ -62,7 +62,7 @@
 
     .top-sidebar {
       background: linear-gradient(
-        135deg,
+        160deg,
         var(--color-dark-background),
         var(--color-too-dark-background)
       );
