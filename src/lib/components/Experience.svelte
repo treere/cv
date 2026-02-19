@@ -41,6 +41,7 @@
 <style lang="scss">
   a {
     color: var(--color-link);
+    transition: color 0.2s ease;
   }
 
   a:hover {
@@ -49,11 +50,30 @@
 
   .job-description {
     margin-bottom: var(--spacing-2);
+    padding: var(--spacing-2);
+    border-left: 3px solid var(--color-link);
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 0 6px 6px 0;
+    transition: background 0.2s ease;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.04);
+    }
+
+    @media print {
+      padding: 0 0 0 10px;
+      margin-bottom: 10px;
+      background: none !important;
+      border-left: 2px solid var(--color-link);
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
   }
 
   .role {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
+    color: var(--color-title);
   }
 
   .row {
@@ -62,25 +82,31 @@
 
     > div:last-child {
       color: var(--color-subtitle);
+      font-size: 14px;
     }
 
     @media (min-width: 450px) {
       flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
 
       > div:last-child {
-        margin-left: auto;
+        margin-left: var(--spacing-2);
       }
     }
   }
 
   .tecnologies {
     margin-top: var(--spacing-2);
+    margin-bottom: var(--spacing-2);
 
     .title {
-      color: var(--color-title);
-      font-size: 14px;
+      color: var(--color-subtitle);
+      font-size: 12px;
       font-weight: 600;
-      margin: 0;
+      margin: 0 0 var(--spacing-1);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
   }
 </style>
