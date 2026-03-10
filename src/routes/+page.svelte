@@ -38,8 +38,15 @@
 
     <Section title={$t('cv.experiences.title')}>
       <Experience
+        role={$t('cv.roles.tech_lead')}
+        time="2026 -"
+        company="Sibill s.r.l."
+        where={$t('cv.locations.milan')}
+        website="https://sibill.it"
+      />
+      <Experience
         role={$t('cv.roles.senior_developer')}
-        time="2022 -"
+        time="2022 - 2026"
         company="Sibill s.r.l."
         where={$t('cv.locations.milan')}
         website="https://sibill.it"

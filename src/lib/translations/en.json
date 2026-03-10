@@ -39,6 +39,7 @@
     }
   },
   "roles": {
+    "tech_lead": "Tech Lead",
     "senior_developer": "Senior Developer",
     "head_of_development": "Head of development",
     "developer": "Developer",
