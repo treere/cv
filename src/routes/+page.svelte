@@ -1,5 +1,6 @@
 <script>
   import Email from '$lib/components/Email.svelte';
+  import CompanyExperience from '$lib/components/CompanyExperience.svelte';
   import Experience from '$lib/components/Experience.svelte';
   import Github from '$lib/components/Github.svelte';
   import LineList from '$lib/components/LineList.svelte';
@@ -37,56 +38,53 @@
     </Section>
 
     <Section title={$t('cv.experiences.title')}>
-      <Experience
-        role={$t('cv.roles.tech_lead')}
-        time="2026 -"
+      <CompanyExperience
         company="Sibill s.r.l."
         where={$t('cv.locations.milan')}
         website="https://sibill.it"
-      />
-      <Experience
-        role={$t('cv.roles.senior_developer')}
-        time="2022 - 2026"
-        company="Sibill s.r.l."
-        where={$t('cv.locations.milan')}
-        website="https://sibill.it"
-        technologies={[
-          'Elixir',
-          'Phoenix',
-          'SQL',
-          'Typescript',
-          'Reactjs',
-          'HTML/CSS',
-          'RabbitMQ',
-          'Elastic Search'
+        roles={[
+          {
+            role: $t('cv.roles.tech_lead'),
+            time: '2026 -'
+          },
+          {
+            role: $t('cv.roles.senior_developer'),
+            time: '2022 - 2026',
+            description: $t('cv.experiences.sibill.description'),
+            technologies: [
+              'Elixir',
+              'Phoenix',
+              'SQL',
+              'Typescript',
+              'Reactjs',
+              'HTML/CSS',
+              'RabbitMQ',
+              'Elastic Search'
+            ]
+          }
         ]}
-      >
-        {@html $t('cv.experiences.sibill.description')}
-      </Experience>
-      <Experience
-        role={$t('cv.roles.head_of_development')}
-        time="2020 - 2022"
-        company="ARGO Vision"
-        where={$t('cv.locations.milan')}
-        website="https://argo.vision"
       />
-      <Experience
-        role={$t('cv.roles.developer')}
-        time="2017 - 2020"
+      <CompanyExperience
         company="ARGO Vision"
         where={$t('cv.locations.milan')}
         website="https://argo.vision"
+        roles={[
+          {
+            role: $t('cv.roles.head_of_development'),
+            time: '2020 - 2022'
+          },
+          {
+            role: $t('cv.roles.developer'),
+            time: '2017 - 2020'
+          },
+          {
+            role: $t('cv.roles.internship'),
+            time: '2016 - 2017',
+            description: $t('cv.experiences.argo.description'),
+            technologies: ['C++', 'Python', 'Rust', 'Matlab']
+          }
+        ]}
       />
-      <Experience
-        role={$t('cv.roles.internship')}
-        time="2016 - 2017"
-        company="ARGO Vision"
-        where={$t('cv.locations.milan')}
-        website="https://argo.vision"
-        technologies={['C++', 'Python', 'Rust', 'Matlab']}
-      >
-        {@html $t('cv.experiences.argo.description')}
-      </Experience>
     </Section>
 
     <Section title={$t('cv.education.title')}>

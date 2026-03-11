@@ -18,7 +18,7 @@
   <div class="row">
     <div>
       {#if website !== undefined}
-        <a href={website}>{company}</a>
+        <a href={website} target="_blank" rel="noopener noreferrer">{company}</a>
       {:else}
         {company}
       {/if}
