@@ -32,7 +32,7 @@
 <slot />
 
 {#if technologies !== undefined}
-  <div class="tecnologies">
+  <div class="technologies">
     <h4 class="title">{$t('cv.technologies')}</h4>
     <LineList list={technologies} />
   </div>
@@ -96,7 +96,7 @@
     }
   }
 
-  .tecnologies {
+  .technologies {
     margin-top: var(--spacing-2);
     margin-bottom: var(--spacing-2);
 

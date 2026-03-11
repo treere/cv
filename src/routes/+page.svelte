@@ -106,7 +106,7 @@
         role={$t('cv.education.diploma')}
         company="Liceo Scientifico Statale Vittorio Veneto"
         where={$t('cv.locations.milan')}
-        time="2009 - 2013"
+        time="2004 - 2009"
       />
     </Section>
 
