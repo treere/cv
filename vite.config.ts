@@ -7,11 +7,13 @@ export default defineConfig({
     include: ['src/**/*.{test,spec}.{js,ts}']
   },
   build: {
+    minify: 'esbuild',
+    cssMinify: true,
     rollupOptions: {
       output: {
         manualChunks: (id) => {
-          if (id.includes('svelte/src/internal')) {
-            return 'svelte-internal';
+          if (id.includes('node_modules/svelte')) {
+            return 'svelte';
           }
         }
       }
