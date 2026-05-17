@@ -1,15 +1,15 @@
 {
   "about_me": {
     "title": "Informazioni su di me",
-    "description": "Adoro la programmazione! È un parco giochi per creare sempre qualcosa di nuovo. Ho iniziato a imparare da solo al liceo, continuato all'università mentre prendevo la laurea in <strong>matematica</strong>. Alla fine, ho deciso di studiare anche <strong>informatica</strong>. Ora la programmazione non è solo un hobby, ma anche il mio lavoro."
+    "description": "Sviluppatore software appassionato con una solida base in matematica e informatica. Ho iniziato a programmare da autodidatta al liceo e ho continuato a sviluppare le mie competenze durante gli studi in <strong>matematica</strong>, per poi conseguire una seconda laurea in <strong>informatica</strong>. Oggi la programmazione è sia la mia professione che la mia più grande passione."
   },
   "experiences": {
     "title": "Esperienze",
     "sibill": {
-      "description": "Sviluppatore <strong>full-stack</strong>: sviluppo sia il <strong>back-end</strong> che il <strong>front-end</strong> della piattaforma collaborando con product manager e designer. Preferisco le metodologie <strong>agili</strong>, team affiatati e comunicazione frequente."
+      "description": "Sviluppatore <strong>full-stack</strong> per piattaforma B2B enterprise. Sviluppo componenti sia <strong>back-end</strong> che <strong>front-end</strong> in collaborazione con product manager e designer. Lavoro bene in ambienti <strong>agili</strong> con team multifunzionali, praticando comunicazione continua e sviluppo iterativo."
     },
     "argo": {
-      "description": "Esperto di <strong>Computer Vision</strong>: progettazione, prototipazione e implementazione di algoritmi avanzati. Ho supervisionato lo sviluppo della libreria proprietaria in <strong>C++</strong>, con ottimizzazione delle performance per dispositivi <strong>ARM</strong>, smartphone e <strong>x86</strong>."
+      "description": "Specialista in <strong>Computer Vision</strong> con competenze in progettazione, prototipazione e implementazione di algoritmi avanzati. Ho guidato lo sviluppo di una libreria proprietaria in <strong>C++</strong>, ottenendo significative ottimizzazioni delle performance per dispositivi <strong>ARM</strong>, smartphone e architetture <strong>x86</strong>."
     }
   },
   "education": {
@@ -27,15 +27,15 @@
     "title": "Interessi personali",
     "computer_science": {
       "title": "Informatica",
-      "description": "Mi aggiorno sulle nuove tecnologie che nascono ogni giorno. Partecipo a vari meetup tra cui JVM User Group, XP User Group, Rust Milano e Opensource Saturday."
+      "description": "Impegnato nell'apprendimento continuo e nel tenermi aggiornato sulle tecnologie emergenti. Partecipo attivamente ai meetup tecnici tra cui JVM User Group, XP User Group, Rust Milano e OpenSource Saturday per rimanere all'avanguardia negli sviluppi del settore."
     },
     "bike": {
       "title": "Bicicletta",
-      "description": "La mia bicicletta è il mezzo di trasporto principale per viaggi urbani e escursioni"
+      "description": "Ciclista appassionato - uso la bicicletta come mio principale mezzo di trasporto urbano e per escursioni nel weekend"
     },
     "food": {
       "title": "Cibo",
-      "description": "Credo che mangiare sia uno dei più grandi piaceri della vita. Cucinare mi consente di combinare gli ingredienti in modo creativo, dando vita a piatti che sono più grandi della somma delle loro parti."
+      "description": "Cuoco domestico appassionato che crede che il buon cibo sia uno dei più grandi piaceri della vita. Mi piace combinare gli ingredienti in modo creativo per creare piatti che sono più grandi della somma delle loro parti."
     }
   },
   "roles": {

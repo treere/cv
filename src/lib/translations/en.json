@@ -1,15 +1,15 @@
 {
   "about_me": {
     "title": "About me",
-    "description": "I absolutely love programming! It's a playground for building always something new. I started teaching myself code in high school, kept going through university while getting my <strong>math</strong> degree, then decided to also study <strong>computer science</strong>. Now it's not just a hobby - it's my job too."
+    "description": "Passionate software developer with a strong foundation in mathematics and computer science. I started teaching myself programming in high school and continued developing my skills throughout my <strong>math</strong> degree, eventually pursuing a second degree in <strong>computer science</strong>. Today, programming is both my profession and my greatest passion."
   },
   "experiences": {
     "title": "Experiences",
     "sibill": {
-      "description": "<strong>Full-stack</strong> developer for B2B platform. I develop both <strong>back-end</strong> and <strong>front-end</strong> of the platform collaborating with product managers and designers. I prefer <strong>agile</strong> methodologies, close-knit teams and frequent communication."
+      "description": "<strong>Full-stack</strong> developer for enterprise B2B platform. Develop both <strong>back-end</strong> and <strong>front-end</strong> components in collaboration with product managers and designers. Thrive in <strong>agile</strong> environments with cross-functional teams, practicing continuous communication and iterative development."
     },
     "argo": {
-      "description": "<strong>Computer Vision</strong> expert: designing, prototyping and implementing advanced algorithms. I led development of the proprietary <strong>C++</strong> library, with performance optimization for <strong>ARM</strong> devices, smartphones and <strong>x86</strong>."
+      "description": "<strong>Computer Vision</strong> specialist with expertise in designing, prototyping and implementing advanced algorithms. Led development of a proprietary <strong>C++</strong> library, achieving significant performance optimizations for <strong>ARM</strong> devices, smartphones and <strong>x86</strong> architectures."
     }
   },
   "education": {
@@ -27,15 +27,15 @@
     "title": "Personal interests",
     "computer_science": {
       "title": "Computer science",
-      "description": "I really enjoy staying current with new technologies that emerge every day. I often attend meetups including JVM User Group, XP User Group, Rust Milano and Opensource Saturday."
+      "description": "Committed to continuous learning and staying current with emerging technologies. Actively participate in tech meetups including JVM User Group, XP User Group, Rust Milano and OpenSource Saturday to remain at the forefront of industry developments."
     },
     "bike": {
       "title": "Bike",
-      "description": "My bicycle is my main mode of transportation for urban travel and excursions"
+      "description": "Passionate cyclist - using biking as my primary mode of urban transportation and for weekend excursions"
     },
     "food": {
       "title": "Food",
-      "description": "I believe that eating is one of life's greatest pleasures. Cooking allows me to combine ingredients in creative ways, giving life to dishes that are greater than the sum of their parts."
+      "description": "Enthusiastic home cook who believes that good food is one of life's greatest pleasures. I enjoy combining ingredients creatively to create dishes that are greater than the sum of their parts."
     }
   },
   "roles": {
