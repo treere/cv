@@ -5,7 +5,7 @@
   export let email;
 </script>
 
-<a href={`mailto:${email}`}>
+<a href={`mailto:${email}`} aria-label="Send email">
   <RowContainer icon="email.svg">
     <Email width={'16px'} height={'16px'} />
     <span>{email}</span>

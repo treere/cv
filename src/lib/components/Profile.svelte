@@ -5,7 +5,7 @@
 </script>
 
 <div class="container">
-  <img src={image} alt="profile pic" />
+  <img src={image} alt="Andrea Tomasi" />
   <div>
     <h1>{name}</h1>
     <h2>{role}</h2>

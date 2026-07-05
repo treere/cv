@@ -1,5 +1,10 @@
 <script lang="ts">
   import LanguageSelector from '$lib/components/LanguageSelector.svelte';
+  import { locale } from '$lib/translations';
+
+  $effect(() => {
+    document.documentElement.lang = $locale;
+  });
 </script>
 
 <LanguageSelector />
