@@ -23,20 +23,18 @@
     "programming_languages": "Programming languages",
     "platforms_and_software": "Platforms and software"
   },
-  "personal_interests": {
-    "title": "Personal interests",
-    "computer_science": {
-      "title": "Computer science",
-      "description": "Continuous learner — regular at JVM UG, XP UG, Rust Milano, Open Source Saturday. Like to track what sticks vs what fades."
+  "projects": {
+    "title": "Selected Projects",
+    "treby": {
+      "title": "Treby",
+      "description": "Multi-tenant <strong>ATS</strong> with <strong>Phoenix LiveView</strong> — job postings, customizable hiring pipelines, candidate portal (OTP login, self-scheduling, notes/ratings) and public career pages."
     },
-    "bike": {
-      "title": "Bike",
-      "description": "Daily cyclist — city commute + weekend climbs."
+    "cytos": {
+      "title": "Cytos",
+      "description": "<strong>Rust</strong> library for lightweight <strong>dataflow pipelines</strong> — low overhead, multi-graph, thread-concurrent, custom nodes/edges for high-performance & edge use."
     },
-    "food": {
-      "title": "Food",
-      "description": "Home cook — ingredient-driven, zero waste."
-    }
+    "note": "I experiment a lot — I ship few, maintain long.",
+    "view_on_github": "View on GitHub"
   },
   "roles": {
     "tech_lead": "Tech Lead",

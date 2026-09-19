@@ -23,20 +23,18 @@
     "programming_languages": "Linguaggi di programmazione",
     "platforms_and_software": "Piattaforme e software"
   },
-  "personal_interests": {
-    "title": "Interessi personali",
-    "computer_science": {
-      "title": "Informatica",
-      "description": "Formazione continua — JVM UG, XP UG, Rust Milano, Open Source Saturday."
+  "projects": {
+    "title": "Progetti selezionati",
+    "treby": {
+      "title": "Treby",
+      "description": "<strong>ATS</strong> multi-tenant con <strong>Phoenix LiveView</strong> — annunci, pipeline di hiring personalizzabili, portale candidati (OTP, self-scheduling, note/valutazioni) e career page pubbliche."
     },
-    "bike": {
-      "title": "Bicicletta",
-      "description": "Ciclista quotidiano — commute + uscite weekend."
+    "cytos": {
+      "title": "Cytos",
+      "description": "Libreria <strong>Rust</strong> per <strong>pipeline dataflow</strong> leggere — low overhead, multi-grafo, concorrente su thread, nodi/archi custom per alte performance & edge."
     },
-    "food": {
-      "title": "Cibo",
-      "description": "Cucina creativa, zero sprechi."
-    }
+    "note": "Sperimento molto — rilascio poco, mantengo a lungo.",
+    "view_on_github": "Vedi su GitHub"
   },
   "roles": {
     "tech_lead": "Tech Lead",

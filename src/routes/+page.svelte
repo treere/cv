@@ -117,18 +117,28 @@
       </Subsection>
     </Section>
 
-    <Section title={$t('cv.personal_interests.title')}>
-      <Subsection title={$t('cv.personal_interests.computer_science.title')}>
-        {@html $t('cv.personal_interests.computer_science.description')}
+    <Section title={$t('cv.projects.title')}>
+      <Subsection title={$t('cv.projects.treby.title')}>
+        <p>{@html $t('cv.projects.treby.description')}</p>
+        <div class="project-meta">
+          <LineList list={['Elixir', 'Phoenix LiveView', 'PostgreSQL', 'S3']} />
+          <a href="https://github.com/treere/treby" target="_blank" rel="noopener noreferrer"
+            >{$t('cv.projects.view_on_github')} — treere/treby ↗</a
+          >
+        </div>
       </Subsection>
 
-      <Subsection title={$t('cv.personal_interests.bike.title')}>
-        {@html $t('cv.personal_interests.bike.description')}
+      <Subsection title={$t('cv.projects.cytos.title')}>
+        <p>{@html $t('cv.projects.cytos.description')}</p>
+        <div class="project-meta">
+          <LineList list={['Rust', 'Dataflow', 'Concurrency']} />
+          <a href="https://github.com/treere/cytos" target="_blank" rel="noopener noreferrer"
+            >{$t('cv.projects.view_on_github')} — treere/cytos ↗</a
+          >
+        </div>
       </Subsection>
 
-      <Subsection title={$t('cv.personal_interests.food.title')}>
-        {@html $t('cv.personal_interests.food.description')}
-      </Subsection>
+      <p class="project-note"><em>{$t('cv.projects.note')}</em></p>
     </Section>
   {/snippet}
 </Page>
@@ -138,5 +148,32 @@
     display: flex;
     flex-direction: column;
     gap: var(--spacing-1);
+  }
+
+  .project-meta {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-1);
+    margin-top: var(--spacing-1);
+
+    a {
+      font-size: 13px;
+      color: var(--color-link);
+      &:hover {
+        color: var(--color-link-hover);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+    }
+  }
+
+  .project-note {
+    margin-top: var(--spacing-2);
+    font-size: 13px;
+    color: var(--color-subtitle);
+  }
+
+  p {
+    margin: 0 0 var(--spacing-1);
   }
 </style>
