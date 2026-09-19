@@ -15,24 +15,21 @@
 </script>
 
 <Page>
-  <Profile
-    name="Andrea Tomasi"
-    role={$t('cv.roles.developer')}
-    image="profile.webp"
-    slot="top-sidebar"
-  />
-
-  <div slot="bottom-sidebar" class="links">
-    <Location
-      city={$t('cv.locations.milan_expanded.city')}
-      state={$t('cv.locations.milan_expanded.state')}
-    />
-    <Email email="tomasiandrea.at@gmail.com" />
-    <Linkedin name="andrea-tomasi-b19921100" />
-    <Github username="treere" />
-  </div>
-
-  <svelte:fragment slot="central">
+  {#snippet topSidebar()}
+    <Profile name="Andrea Tomasi" role={$t('cv.roles.developer')} image="profile.webp" />
+  {/snippet}
+  {#snippet bottomSidebar()}
+    <div class="links">
+      <Location
+        city={$t('cv.locations.milan_expanded.city')}
+        state={$t('cv.locations.milan_expanded.state')}
+      />
+      <Email email="tomasiandrea.at@gmail.com" />
+      <Linkedin name="andrea-tomasi-b19921100" />
+      <Github username="treere" />
+    </div>
+  {/snippet}
+  {#snippet central()}
     <Section title={$t('cv.about_me.title')}>
       {@html $t('cv.about_me.description')}
     </Section>
@@ -45,7 +42,7 @@
         roles={[
           {
             role: $t('cv.roles.tech_lead'),
-            time: '2026 -'
+            time: '2026 — Present'
           },
           {
             role: $t('cv.roles.senior_developer'),
@@ -133,7 +130,7 @@
         {@html $t('cv.personal_interests.food.description')}
       </Subsection>
     </Section>
-  </svelte:fragment>
+  {/snippet}
 </Page>
 
 <style lang="scss">

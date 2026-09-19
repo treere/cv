@@ -1,9 +1,10 @@
-<script>
-  export let title;
+<script lang="ts">
+  import type { Snippet } from 'svelte';
+  let { title, children }: { title: string; children: Snippet } = $props();
 </script>
 
 <h3>{title}</h3>
-<slot />
+{@render children()}
 
 <style lang="scss">
   h3 {

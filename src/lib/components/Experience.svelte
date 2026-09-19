@@ -2,12 +2,23 @@
   import { t } from '$lib/translations';
   import LineList from './LineList.svelte';
 
-  export let role: string;
-  export let time: string;
-  export let company: string;
-  export let where: string;
-  export let website: string | undefined = undefined;
-  export let technologies: string[] | undefined = undefined;
+  let {
+    role,
+    time,
+    company,
+    where,
+    website = undefined,
+    technologies = undefined,
+    children
+  }: {
+    role: string;
+    time: string;
+    company: string;
+    where: string;
+    website?: string;
+    technologies?: string[];
+    children?: any;
+  } = $props();
 </script>
 
 <div class="job-description">
@@ -29,11 +40,11 @@
   </div>
 </div>
 
-<slot />
+{#if children}{@render children()}{/if}
 
 {#if technologies !== undefined}
   <div class="technologies">
-    <h4 class="title">{$t('cv.technologies')}</h4>
+    <h3 class="title">{$t('cv.technologies')}</h3>
     <LineList list={technologies} />
   </div>
 {/if}

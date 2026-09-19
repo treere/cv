@@ -2,10 +2,15 @@
   import RowContainer from './RowContainer.svelte';
   import Github from './icons/Github.svelte';
 
-  export let username;
+  let { username } = $props();
 </script>
 
-<a href={`http://github.com/${username}`} target="_blank" aria-label="GitHub profile">
+<a
+  href={`https://github.com/${username}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="GitHub profile"
+>
   <RowContainer>
     <Github width={'16px'} height={'16px'} />
     <span>{username}</span>

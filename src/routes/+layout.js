@@ -12,13 +12,9 @@ export const load = async ({ url }) => {
 
 function getInitialLocale() {
   if (browser) {
-    try {
-      return window.navigator.language.split('-')[0];
-    } catch (e) {
-      return 'en';
-    }
+    const lang = window.navigator.language.split('-')[0]?.toLowerCase();
+    return lang === 'it' ? 'it' : 'en';
   }
-
   return 'en';
 }
 

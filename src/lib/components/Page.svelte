@@ -1,13 +1,26 @@
+<script lang="ts">
+  import type { Snippet } from 'svelte';
+  import LanguageSelector from '$lib/components/LanguageSelector.svelte';
+  let {
+    central,
+    topSidebar,
+    bottomSidebar
+  }: { central: Snippet; topSidebar: Snippet; bottomSidebar: Snippet } = $props();
+</script>
+
 <div class="container">
   <div class="central">
-    <slot name="central" />
+    <div class="central-header">
+      <LanguageSelector />
+    </div>
+    {@render central()}
   </div>
   <div class="sidebar">
     <div class="top-sidebar">
-      <slot name="top-sidebar" />
+      {@render topSidebar()}
     </div>
     <div class="bottom-sidebar">
-      <slot name="bottom-sidebar" />
+      {@render bottomSidebar()}
     </div>
   </div>
 </div>
@@ -19,9 +32,10 @@
     background: var(--color-white-background);
     flex-direction: column-reverse;
     max-width: 1000px;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px rgba(37, 36, 35, 0.12);
     border-radius: 12px;
     overflow: hidden;
+    border: 1px solid #e8e6e1;
 
     @media (min-width: 1000px) {
       flex-direction: row;
@@ -37,16 +51,26 @@
     }
   }
 
+  .central-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: var(--spacing-2);
+    margin-top: calc(var(--spacing-1) * -1);
+
+    @media (min-width: 1000px) {
+      margin-top: calc(var(--spacing-2) * -1);
+    }
+
+    @media print {
+      display: none;
+    }
+  }
+
   .sidebar {
     min-width: 280px;
-    background: linear-gradient(
-      160deg,
-      var(--color-too-dark-background),
-      var(--color-dark-background)
-    );
+    background: var(--color-dark-background);
     display: flex;
     flex-direction: column;
-    transition: transform 0.3s ease;
 
     @media (max-width: 1000px) and (min-width: 570px) {
       flex-direction: row;
@@ -61,11 +85,7 @@
     }
 
     .top-sidebar {
-      background: linear-gradient(
-        160deg,
-        var(--color-dark-background),
-        var(--color-too-dark-background)
-      );
+      background: rgba(255, 255, 255, 0.04);
       padding: var(--spacing-4);
 
       @media print {
@@ -84,17 +104,15 @@
 
       :global(a) {
         color: var(--color-link-light);
-        transition:
-          opacity 0.2s ease,
-          transform 0.2s ease;
+        transition: opacity 0.2s ease;
         display: inline-flex;
         align-items: center;
         gap: var(--spacing-1);
 
         &:hover {
           opacity: 0.8;
-          transform: translateX(4px);
-          text-decoration: none;
+          text-decoration: underline;
+          text-underline-offset: 3px;
         }
       }
     }

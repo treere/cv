@@ -1,15 +1,15 @@
 {
   "about_me": {
     "title": "About me",
-    "description": "Passionate software developer with a strong foundation in mathematics and computer science. I started teaching myself programming in high school and continued developing my skills throughout my <strong>math</strong> degree, eventually pursuing a second degree in <strong>computer science</strong>. Today, programming is both my profession and my greatest passion."
+    "description": "<strong>Tech Lead & Full-stack</strong> with dual BSc in <strong>Mathematics</strong> + <strong>Computer Science</strong> (while working). 8+ years shipping: fintech B2B platform (Elixir/Phoenix, React/TS, RabbitMQ, Elastic) and proprietary <strong>C++ Computer Vision</strong> lib optimized for <strong>performance & edge computing</strong>. Math background → performance &amp; correctness first."
   },
   "experiences": {
     "title": "Experiences",
     "sibill": {
-      "description": "<strong>Full-stack</strong> developer for enterprise B2B platform. Develop both <strong>back-end</strong> and <strong>front-end</strong> components in collaboration with product managers and designers. Thrive in <strong>agile</strong> environments with cross-functional teams, practicing continuous communication and iterative development."
+      "description": "<strong>Tech Lead / Senior Full-stack</strong> on enterprise B2B fintech. Own backend (Elixir, Phoenix, PostgreSQL) & frontend (TypeScript/React) — from product spec to prod. Introduced <strong>agile + CI</strong>, cross-team coordination with PM/design."
     },
     "argo": {
-      "description": "<strong>Computer Vision</strong> specialist with expertise in designing, prototyping and implementing advanced algorithms. Led development of a proprietary <strong>C++</strong> library, achieving significant performance optimizations for <strong>ARM</strong> devices, smartphones and <strong>x86</strong> architectures."
+      "description": "<strong>Computer Vision</strong> engineer → <strong>Head of Development</strong>. Designed proprietary <strong>C++</strong> pipeline, then led team; delivered optimizations for <strong>performance & edge computing</strong>."
     }
   },
   "education": {
@@ -27,15 +27,15 @@
     "title": "Personal interests",
     "computer_science": {
       "title": "Computer science",
-      "description": "Committed to continuous learning and staying current with emerging technologies. Actively participate in tech meetups including JVM User Group, XP User Group, Rust Milano and OpenSource Saturday to remain at the forefront of industry developments."
+      "description": "Continuous learner — regular at JVM UG, XP UG, Rust Milano, Open Source Saturday. Like to track what sticks vs what fades."
     },
     "bike": {
       "title": "Bike",
-      "description": "Passionate cyclist - using biking as my primary mode of urban transportation and for weekend excursions"
+      "description": "Daily cyclist — city commute + weekend climbs."
     },
     "food": {
       "title": "Food",
-      "description": "Enthusiastic home cook who believes that good food is one of life's greatest pleasures. I enjoy combining ingredients creatively to create dishes that are greater than the sum of their parts."
+      "description": "Home cook — ingredient-driven, zero waste."
     }
   },
   "roles": {

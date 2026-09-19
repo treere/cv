@@ -2,8 +2,8 @@
   import { locale, loading, initialized } from '$lib/translations';
 
   const languages = [
-    { val: 'en', flag: 'https://flagcdn.com/w20/us.png', alt: 'English' },
-    { val: 'it', flag: 'https://flagcdn.com/w20/it.png', alt: 'Italian' }
+    { val: 'en', flag: '🇺🇸', label: 'EN', alt: 'English' },
+    { val: 'it', flag: '🇮🇹', label: 'IT', alt: 'Italian' }
   ];
 
   const selectFlag = (value: string) => {
@@ -11,17 +11,23 @@
   };
 </script>
 
-<div class="lang-selector">
+<div class="lang-selector" role="group" aria-label="Language">
   {#if $initialized}
-    {#each languages as lang}
-      <button
-        on:click={() => selectFlag(lang.val)}
-        disabled={$loading}
-        class:active={$locale === lang.val}
-      >
-        <img src={lang.flag} alt={lang.alt} />
-      </button>
-    {/each}
+    <div class="segmented">
+      {#each languages as lang}
+        <button
+          onclick={() => selectFlag(lang.val)}
+          disabled={$loading}
+          class:active={$locale === lang.val}
+          aria-label={lang.alt}
+          aria-pressed={$locale === lang.val}
+          title={lang.alt}
+        >
+          <span aria-hidden="true">{lang.flag}</span>
+          {lang.label}
+        </button>
+      {/each}
+    </div>
   {/if}
 </div>
 
@@ -33,38 +39,47 @@
   }
 
   .lang-selector {
-    position: fixed;
-    top: var(--spacing-2);
-    right: var(--spacing-2);
     display: flex;
-    gap: 4px;
-    z-index: 100;
+    justify-content: flex-end;
   }
 
-  img {
-    width: 24px;
-    height: 24px;
-    border-radius: 4px;
-    display: block;
+  .segmented {
+    display: inline-flex;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    border-radius: 999px;
+    padding: 3px;
+    gap: 2px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   }
 
   button {
-    border: 2px solid transparent;
-    padding: 4px;
-    background: white;
-    border-radius: 6px;
+    border: 0;
+    padding: 5px 12px;
+    background: transparent;
+    border-radius: 999px;
     cursor: pointer;
-    transition: all 0.2s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 1;
+    color: var(--color-subtitle);
+    transition:
+      background 0.18s ease,
+      color 0.18s ease,
+      box-shadow 0.18s ease;
   }
 
   button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    color: var(--color-title);
   }
 
   button.active {
-    border-color: var(--color-link, #136c73);
+    background: white;
+    color: var(--color-title);
+    box-shadow:
+      0 1px 3px rgba(0, 0, 0, 0.12),
+      0 1px 2px rgba(0, 0, 0, 0.08);
   }
 
   button:disabled {

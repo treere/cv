@@ -1,5 +1,5 @@
-<script>
-  export let list;
+<script lang="ts">
+  let { list }: { list: string[] } = $props();
 </script>
 
 <ul>
@@ -19,21 +19,13 @@
   }
 
   li {
-    background: linear-gradient(135deg, var(--color-link-light), var(--color-white-background));
+    background: var(--color-link-light);
     color: var(--color-link);
     padding: 4px 12px;
     border-radius: 20px;
     font-size: 13px;
     font-weight: 500;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    transition:
-      transform 0.2s ease,
-      box-shadow 0.2s ease;
-
-    &:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
+    border: 1px solid #e8e6e1;
 
     @media print {
       background: #f0f0f0 !important;

@@ -1,22 +1,27 @@
 <script lang="ts">
-  import LanguageSelector from '$lib/components/LanguageSelector.svelte';
   import { locale } from '$lib/translations';
+
+  let { children } = $props();
 
   $effect(() => {
     document.documentElement.lang = $locale;
   });
 </script>
 
-<LanguageSelector />
+<svelte:head>
+  <title>Andrea Tomasi — Tech Lead · Full-stack & CV Engineer</title>
+  <link rel="canonical" href="https://treere.github.io/cv/" />
+  {@html `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Person', name: 'Andrea Tomasi', jobTitle: 'Tech Lead', address: { '@type': 'PostalAddress', addressLocality: 'Milan', addressCountry: 'IT' }, url: 'https://treere.github.io/cv/', sameAs: ['https://github.com/treere', 'https://linkedin.com/in/andrea-tomasi-b19921100'], knowsAbout: ['Elixir', 'TypeScript', 'C++', 'Python', 'Rust'] })}</script>`}
+</svelte:head>
+
 <div>
-  <slot></slot>
+  {@render children()}
 </div>
 
 <style type="scss">
   :global {
     body {
-      background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
-      margin: var(--spacing-4) var(--spacing-1);
+      background: #f2f1ee;
       margin: 0;
       min-height: 100vh;
       display: flex;

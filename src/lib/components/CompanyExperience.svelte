@@ -2,15 +2,17 @@
   import { t } from '$lib/translations';
   import LineList from './LineList.svelte';
 
-  export let company: string;
-  export let where: string;
-  export let website: string | undefined = undefined;
-  export let roles: {
-    role: string;
-    time: string;
-    description?: string;
-    technologies?: string[];
-  }[];
+  let {
+    company,
+    where,
+    website = undefined,
+    roles
+  }: {
+    company: string;
+    where: string;
+    website?: string;
+    roles: { role: string; time: string; description?: string; technologies?: string[] }[];
+  } = $props();
 </script>
 
 <div class="company">
@@ -41,7 +43,7 @@
         {/if}
         {#if role.technologies}
           <div class="technologies">
-            <h4 class="title">{$t('cv.technologies')}</h4>
+            <h3 class="title">{$t('cv.technologies')}</h3>
             <LineList list={role.technologies} />
           </div>
         {/if}
@@ -158,5 +160,9 @@
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
+  }
+
+  h3.title {
+    margin: 0 0 var(--spacing-1);
   }
 </style>

@@ -1,15 +1,15 @@
 {
   "about_me": {
     "title": "Informazioni su di me",
-    "description": "Sviluppatore software appassionato con una solida base in matematica e informatica. Ho iniziato a programmare da autodidatta al liceo e ho continuato a sviluppare le mie competenze durante gli studi in <strong>matematica</strong>, per poi conseguire una seconda laurea in <strong>informatica</strong>. Oggi la programmazione è sia la mia professione che la mia più grande passione."
+    "description": "<strong>Tech Lead & Full-stack</strong> con doppia laurea in <strong>Matematica</strong> + <strong>Informatica</strong> (studiata lavorando). 8+ anni su: piattaforma fintech B2B (Elixir/Phoenix, React/TS) e libreria <strong>C++ Computer Vision</strong> ottimizzata per <strong>performance ed edge computing</strong>."
   },
   "experiences": {
     "title": "Esperienze",
     "sibill": {
-      "description": "Sviluppatore <strong>full-stack</strong> per piattaforma B2B enterprise. Sviluppo componenti sia <strong>back-end</strong> che <strong>front-end</strong> in collaborazione con product manager e designer. Lavoro bene in ambienti <strong>agili</strong> con team multifunzionali, praticando comunicazione continua e sviluppo iterativo."
+      "description": "<strong>Tech Lead / Senior Full-stack</strong> su fintech B2B enterprise. Backend (Elixir, Phoenix, PostgreSQL) & frontend (TypeScript/React) end-to-end, con PM e design. Introdotto <strong>agile + CI</strong> e coordinamento cross-team."
     },
     "argo": {
-      "description": "Specialista in <strong>Computer Vision</strong> con competenze in progettazione, prototipazione e implementazione di algoritmi avanzati. Ho guidato lo sviluppo di una libreria proprietaria in <strong>C++</strong>, ottenendo significative ottimizzazioni delle performance per dispositivi <strong>ARM</strong>, smartphone e architetture <strong>x86</strong>."
+      "description": "<strong>Computer Vision</strong> → <strong>Head of Development</strong>. Progettata pipeline <strong>C++</strong> proprietaria, poi guidato team; ottimizzazioni per <strong>performance ed edge computing</strong>."
     }
   },
   "education": {
@@ -27,15 +27,15 @@
     "title": "Interessi personali",
     "computer_science": {
       "title": "Informatica",
-      "description": "Impegnato nell'apprendimento continuo e nel tenermi aggiornato sulle tecnologie emergenti. Partecipo attivamente ai meetup tecnici tra cui JVM User Group, XP User Group, Rust Milano e OpenSource Saturday per rimanere all'avanguardia negli sviluppi del settore."
+      "description": "Formazione continua — JVM UG, XP UG, Rust Milano, Open Source Saturday."
     },
     "bike": {
       "title": "Bicicletta",
-      "description": "Ciclista appassionato - uso la bicicletta come mio principale mezzo di trasporto urbano e per escursioni nel weekend"
+      "description": "Ciclista quotidiano — commute + uscite weekend."
     },
     "food": {
       "title": "Cibo",
-      "description": "Cuoco domestico appassionato che crede che il buon cibo sia uno dei più grandi piaceri della vita. Mi piace combinare gli ingredienti in modo creativo per creare piatti che sono più grandi della somma delle loro parti."
+      "description": "Cucina creativa, zero sprechi."
     }
   },
   "roles": {

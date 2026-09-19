@@ -1,11 +1,9 @@
-<script>
-  export let image;
-  export let name;
-  export let role;
+<script lang="ts">
+  let { image, name, role }: { image: string; name: string; role: string } = $props();
 </script>
 
 <div class="container">
-  <img src={image} alt="Andrea Tomasi" />
+  <img src={image} alt="Andrea Tomasi" width="120" height="120" fetchpriority="high" />
   <div>
     <h1>{name}</h1>
     <h2>{role}</h2>
@@ -20,13 +18,13 @@
     text-align: center;
   }
   h1 {
-    font-size: 32px;
+    font-size: 28px;
     line-height: 1.1;
-    font-weight: 900;
+    font-weight: 700;
     margin: var(--spacing-2) 0 var(--spacing-1);
     color: var(--color-link-light);
-    text-wrap: nowrap;
-    letter-spacing: -0.5px;
+    text-wrap: balance;
+    letter-spacing: -0.3px;
   }
 
   h2 {
@@ -44,14 +42,7 @@
     object-fit: cover;
     border: 4px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    transition:
-      transform 0.3s ease,
-      box-shadow 0.3s ease;
-
-    &:hover {
-      transform: scale(1.05);
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-    }
+    transition: box-shadow 0.2s ease;
 
     @media print {
       width: 80px;
