@@ -17,7 +17,7 @@
     where: string;
     website?: string;
     technologies?: string[];
-    children?: any;
+    children?: import('svelte').Snippet;
   } = $props();
 </script>
 

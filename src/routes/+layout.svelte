@@ -11,7 +11,19 @@
 <svelte:head>
   <title>Andrea Tomasi — Tech Lead · Full-stack & CV Engineer</title>
   <link rel="canonical" href="https://treere.github.io/cv/" />
-  {@html `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Person', name: 'Andrea Tomasi', jobTitle: 'Tech Lead', address: { '@type': 'PostalAddress', addressLocality: 'Milan', addressCountry: 'IT' }, url: 'https://treere.github.io/cv/', sameAs: ['https://github.com/treere', 'https://linkedin.com/in/andrea-tomasi-b19921100'], knowsAbout: ['Elixir', 'TypeScript', 'C++', 'Python', 'Rust'] })}</script>`}
+  {@html '<script type="application/ld+json">' +
+    JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      name: 'Andrea Tomasi',
+      jobTitle: 'Tech Lead',
+      address: { '@type': 'PostalAddress', addressLocality: 'Milan', addressCountry: 'IT' },
+      url: 'https://treere.github.io/cv/',
+      sameAs: ['https://github.com/treere', 'https://linkedin.com/in/andrea-tomasi-b19921100'],
+      knowsAbout: ['Elixir', 'TypeScript', 'C++', 'Python', 'Rust']
+    }) +
+    '</scr' +
+    'ipt>'}
 </svelte:head>
 
 <div>
